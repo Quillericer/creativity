@@ -1,0 +1,162 @@
+.adventures {
+    // opacity: 0;
+    // transition: opacity 3s;
+    margin-top: 482px;
+    min-height: 1661px;
+    &__img {
+        position: absolute;
+        // opacity: 0;
+        // transition: opacity 3s;
+        top: -138px;
+        left: -40px;
+    }
+    &__block {
+        &-first {
+            margin-left: 441px;
+            margin-top: 6px;
+        }
+        &-second {
+            margin-top: 6px;
+            margin-left: 200px;
+        }
+    }
+    &__descr {
+        display: flex;
+        margin-top: 63px;
+        &_white {
+            font-weight: 700;
+            font-size: 33px;
+            line-height: 43px;
+            text-transform: uppercase;
+        }
+        &_blue {
+            color: $main-color;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 34px;
+            text-transform: uppercase;
+        }
+        &_mini {
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 34px;
+            text-transform: uppercase;
+            margin-top: 26px;
+            position: relative;
+        }
+        &-oval {
+            position: absolute;
+            left: -40px;
+            top: 2px;
+        }
+        &-num {
+            position: absolute;
+            left: -32px;
+            top: 8px;
+        }
+    }
+}
+
+.bepart {
+    margin-left: 57px;
+    font-weight: 500;
+    font-size: 178px;
+    line-height: 146px;
+    letter-spacing: -7px;
+    text-transform: uppercase;
+    background: linear-gradient(23.75deg, #414345 24.38%, #D4C9C1 78.32%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.ofan {
+    margin-left: 514px;
+    font-weight: 500;
+    font-size: 178px;
+    line-height: 146px;
+    letter-spacing: -7px;
+    text-transform: uppercase;
+    background: linear-gradient(23.75deg, #414345 10%, #D4C9C1 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.impressive {
+    margin-left: 57px;
+    font-weight: 500;
+    font-size: 178px;
+    line-height: 146px;
+    letter-spacing: -7px;
+    text-transform: uppercase;
+    background: linear-gradient(23.75deg, #D4C9C1 24.38%, #414345 78.32%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.travel {
+    margin-left: 714px;
+    font-weight: 500;
+    font-size: 178px;
+    line-height: 146px;
+    letter-spacing: -7px;
+    text-transform: uppercase;
+    background: linear-gradient(23.75deg, #D4C9C1 24.38%, #414345 78.32%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.adventure {
+    margin-left: 714px;
+    font-weight: 500;
+    font-size: 178px;
+    line-height: 146px;
+    letter-spacing: -7px;
+    text-transform: uppercase;
+    background: linear-gradient(23.75deg, #D4C9C1 24.38%, #414345 78.32%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.group {
+    &_first {
+        width: 78px;
+        height: 113px;
+        position: absolute;
+        margin-top: 161px;
+        margin-left: 853px;
+    }
+    &_second {
+        width: 78px;
+        height: 113px;
+        position: absolute;
+        margin-top: 189px;
+        margin-left: 1292px;
+        transform: rotate(-90deg);
+    }
+    &_third {
+        width: 78px;
+        height: 113px;
+        position: absolute;
+        margin-top: 158px;
+        margin-left: 1382px;
+    }
+    &_fourth {
+        width: 78px;
+        height: 113px;
+        position: absolute;
+        margin-top: 210px;
+        margin-left: 1464px;
+        transform: rotate(135deg);
+    }
+}
+
+.scroll {
+    &-class {
+        opacity: 1;
+    }
+}

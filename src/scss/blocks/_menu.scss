@@ -1,0 +1,104 @@
+@keyframes animate {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 400%;
+    }
+}
+
+.menu {
+    margin-top: 25px;
+    min-height: 444px;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+    }
+    &__item {
+        position: relative;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 1.1px;
+        text-transform: uppercase;
+        text-decoration: none;
+        &:after {
+            content: "";
+            position: absolute;
+            background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+            height: 3px;
+            width: 0;
+            left: 0;
+            bottom: -10px;
+            transition: 0.3s;
+        }
+        &:hover:after {
+            width: 100%;
+        }
+        &-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 9px;
+            cursor: pointer;
+        }
+    }
+    &__button {
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+        // background: #0003FF;
+        border-radius: 38px;
+        width: 180px;
+        height: 50px;
+        cursor: pointer;
+        background-size: 400%;
+        margin-left: 68px;
+        &:hover {
+            animation: animate 8s linear infinite;
+        }
+    }
+    &__start {
+        font-size: 23px;
+        line-height: 31px;
+        letter-spacing: 1.64286px;
+        text-transform: uppercase;
+        margin-top: 352px;
+        text-align: center;
+        cursor: pointer;
+        &:hover {
+            text-shadow: 0 0 10px $main-color, 0 0 20px $main-color, 0 0 40px $main-color, 0 0 80px $main-color, 0 0 120px $main-color, 0 0 160px $main-color;
+            transition: .5s;
+            font-size: 26px;
+        }
+        
+    }
+}
+
+#logo {
+    margin-left: 13px;
+}
+
+#community {
+    margin-left: 156px;
+}
+
+#roadmap {
+    margin-left: 44px;
+}
+
+#white-paper {
+    margin-left: 579px;
+}
+
+#how-to-play {
+    margin-left: 33px;
+}
+
+#about {
+    margin-left: 50px;
+}
+
+#more {
+    margin-left: 175px;
+}

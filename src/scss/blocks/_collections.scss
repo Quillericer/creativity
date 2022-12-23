@@ -1,0 +1,65 @@
+.collections {
+    min-height: 1547px;
+    &__wrapper {
+        position: relative;
+    }
+    &__text {
+        display: flex;
+        justify-content: center;
+        gap: 63px;
+        &_big {
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 58px;
+            text-align: right;
+            letter-spacing: -0.752484px;
+            text-transform: uppercase;
+            color: #939393;
+        }
+        &_reg {
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 33px;
+            text-transform: uppercase;
+        }
+    }
+    &__title {
+        margin-top: 290px;
+        font-size: 250px;
+        line-height: 514px;
+        text-align: center;
+        letter-spacing: -5.41007px;
+        text-transform: uppercase;
+        background: linear-gradient(23.75deg, #D4C9C1 24.38%, #414345 78.32%);
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    &__first {
+        position: absolute;
+        z-index: 1;
+        top: -125px;
+        left: 200px;
+    }
+    &__second {
+        position: absolute;
+        z-index: -1;
+        top: -150px;
+        left: 750px;
+    }
+}
+
+h1 span {
+    font-weight: 700;
+    display: inline-flex;
+}
+
+h1 span:nth-child(even) {
+    overflow: hidden;
+    transition: ease-in-out 0.5s;
+    color: $main-color;
+    letter-spacing: -1em;
+}
+
+h1:hover span:nth-child(even) {
+    letter-spacing: 0;
+}
